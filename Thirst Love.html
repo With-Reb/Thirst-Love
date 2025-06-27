@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thirst Love</title>
+  <link rel="stylesheet" href="Thirst Love.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="Logo.png" alt="Thirst Love Logo" class="logo" />
+    <nav class="nav">
+      <a href="Thirst Love.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Enquiry</a>
+    </nav>
+  </header>
+  
+  <main class="main-content">
+    <section class="hero">
+      <h1>Thirst Love</h1>
+      <p>Fresh Coffee. Fresh Cakes. Local Vibes.</p>
+      <p>Bringing the best brews and bakes to the heart of the community ☕</p>
+      <p><img src="IMG_9274.jpg" alt="Victoria" class="logo"></p>
+    </section>
+
+    <section id="reviews" class="reviews">
+  <div class="hero">
+    <h2>What Our Customers Say</h2>
+    <div class="review-slider">
+      <div class="review active">
+        <p>“Such a lovely vibe, great coffee and the friendliest staff!”</p>
+        <h4>– Emma J</h4>
+      </div>
+      <div class="review">
+        <p>“A gem in Whitstable. Delicious food and peaceful atmosphere.”</p>
+        <h4>– Alex T</h4>
+      </div>
+      <div class="review">
+        <p>“Always my go-to spot for a quiet moment with a flat white.”</p>
+        <h4>– Jamie L</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="contact" class="contact">
+    <div class="hero">
+      <h2>Contact Us</h2>
+      <p>Phone 📞: 07375 882125</p>
+      <p>Visit 📍: 180A Cromwell Rd, Whitstable CT5 1NA</p>
+       <p><a href="https://www.instagram.com/thirstlovecafe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="—Pngtree—instagram white icon instagram instagram_3570419.png" alt="Instagram" class="logo"></a></p>
+        <p><a href="https://www.facebook.com/ThirstLoveCafe" target="_blank"><img src="—Pngtree—white icon_3570420.png" alt="Facebook" class="logo"></a></p>
+    </div>
+  </section>
+
+  <section id="'location" class="location">
+   <div class="hero">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.347646782044!2d1.024444529345723!3d51.35990536670469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9335dadcfc687%3A0x2973eee53036966e!2sThirst%20Love%20Caf%C3%A9!5e0!3m2!1sen!2suk!4v1751010933355!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+   </section>
+   </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Thirst Love - Designed by Design With Reb</p>
+  </footer>
+  <script>
+  const reviews = document.querySelectorAll('.review');
+  let current = 0;
+
+  function showNextReview() {
+    reviews[current].classList.remove('active');
+    current = (current + 1) % reviews.length;
+    reviews[current].classList.add('active');
+  }
+
+  setInterval(showNextReview, 4000); // change every 4 seconds
+</script>
+</body>
+</html>
