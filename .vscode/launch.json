@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///Users/rebbecca/Library/CloudStorage/Dropbox-SteveCharlesElec%20(22-05-2025%2011:47)/Rebbecca%20Charles/Mac%20(2)/Desktop/GitHub/Thirst%20Love%20/Thirst-Love/Thirst%20Love.html",
+            "url": "file:///Users/rebbecca/Library/CloudStorage/Dropbox-SteveCharlesElec%20(22-05-2025%2011:47)/Rebbecca%20Charles/Mac%20(2)/Desktop/GitHub/Thirst%20Love%20/Thirst-Love/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
