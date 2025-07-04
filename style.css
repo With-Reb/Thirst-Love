@@ -126,7 +126,7 @@ body {
 }
 
 .gallery-grid img {
-  width: 100%;
+  width: 90%;
   height: 250px;
   border-radius: 8px;
   object-fit: cover;
